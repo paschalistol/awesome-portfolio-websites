@@ -722,7 +722,10 @@ Rotate Transition in foote Soical Icon
     margin-bottom: 8px;
     width: 35px;
 }
-
+.playstore-icon-footer {
+    margin-bottom: 8px;
+    width: 35px;
+}
 
 /*
 ----------------------------------------
@@ -741,10 +744,21 @@ Rotate Transition in foote Soical Icon
     background: #2b2a2A;
 }
 
+.rounded-social-buttons .social-button.playstore {
+    background: #2b2a2A;
+    box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
+}
+.rounded-social-buttons .social-button.playstore:hover,
+.rounded-social-buttons .social-button.playstore:focus {
+    color: #000;
+    background: #2b2a2A;
+}
+
 .rounded-social-buttons .social-button.linkedin {
     background: #2b2a2A;
     box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
 }
+
 
 .rounded-social-buttons .social-button.linkedin:hover,
 .rounded-social-buttons .social-button.linkedin:focus {
