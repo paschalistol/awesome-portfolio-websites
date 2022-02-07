@@ -226,6 +226,5 @@ const showCards3 = () => {
       </div>
       `)
   );
-  hackathonsection.innerHTML = output;
 };
 document.addEventListener("DOMContentLoaded", showCards3);
