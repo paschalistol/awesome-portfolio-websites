@@ -395,7 +395,6 @@ color: #ffffff !important;
         margin-right: auto;
         bottom: 0;
         width: 32%;
-        border-bottom: 3px solid #6a00bb;
     }
     
     .nav-item-hover::after {

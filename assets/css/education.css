@@ -382,7 +382,7 @@ p {
 /* -----Education Timeline CSS----- */
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 html, body {
@@ -572,11 +572,13 @@ blockquote {
   border-left-color: #3F51B5;
   padding: 0 20px;
 }
-
+.edu_text{
+  padding-top: 40px;
+}
 .date {
   background: #FF4081;
-  display: inline-block;
   color: #FFFFFF;
+  display: inline-block;
   padding: 10px;
   position: absolute;
   top: 0;
