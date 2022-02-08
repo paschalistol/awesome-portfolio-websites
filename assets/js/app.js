@@ -55,13 +55,12 @@ let footer = $(`
 
 
 
-        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-comtainer">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0 form-container">
           <div class="form-style-6">
              <div class="form-header">
                 <h6 class="display">Get in Touch</h6>
               </div>
-                <form>
-                  <form action="https://formcarry.com/s/QntkBiMUMqZ" method="POST" accept-charset="UTF-8" >
+                <form action="https://formcarry.com/s/QntkBiMUMqZ" method="POST" accept-charset="UTF-8" >
                   <input type="text" name="field1" placeholder="Your Name" required/>
                   <input type="email" name="field2" placeholder="Email Address"  required/>
                   <textarea name="field3" placeholder="Type your Message" required></textarea>
@@ -202,7 +201,7 @@ $(document).ready(function () {
   //function for the "Scroll To Top" button to detect the footer
   $(window).scroll(function () {
     //The button will be hidden until we scroll more than the window's height
-    if ($(window).scrollTop() < $(window).height()) {
+    if ($(window).scrollTop() < 1) {
       $("#btnScrollToTop").css("visibility", "hidden");
     } else {
       $("#btnScrollToTop").css("visibility", "visible");

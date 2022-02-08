@@ -281,6 +281,8 @@ ul ol {
   font-size: 12px;
 }
 
+
+
 .card-body h3 {
   font-size: 2rem;
   margin-top: 5px;
@@ -293,7 +295,6 @@ ul ol {
 .main1 ul {
   display: block;
   margin: 0 auto;
-  min-height: 15rem;
   max-width: 1050px;
   padding: 1rem !important;
 }
@@ -645,45 +646,6 @@ ul ol {
   font-weight: 700;
 }
 
-/* Hackathon Description   */
-
-.blog-slider__text {
-  color: (var(--head-col));
-  margin-bottom: 30px;
-  line-height: 1.5em;
-}
-.blog-slider__button {
-  display: inline-flex;
-  background-image: linear-gradient(147deg, #bb86fc 0%, #940eb5 74%);
-  padding: 15px 35px;
-  border-radius: 50px;
-  color: #fff;
-  box-shadow: 0px 14px 80px rgba(162, 14, 181, 0.4);
-  font-weight: 500;
-  justify-content: center;
-  text-align: center;
-  letter-spacing: 1px;
-}
-a:link {
-  text-decoration: none !important;
-}
-@media screen and (max-width: 576px) {
-  .blog-slider__button {
-    width: 100%;
-  }
-}
-
-.card2 {
-  color: var(--text);
-}
-
-@media (max-width: 768px) {
-  .mcard {
-    margin-bottom: 12rem !important;
-  }
-}
-
-/*Hackathon Section Ends*/
 
 /*
 ----------------------------

@@ -416,6 +416,11 @@ header p {
   margin-top: -30px;
 }
 
+ul {
+  padding-left: 4%;
+  list-style-position: outside;
+}
+
 .timeline {
   position: relative;
   font-weight: bold;
