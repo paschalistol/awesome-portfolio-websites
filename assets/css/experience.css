@@ -155,7 +155,7 @@ section > div {
   z-index: 0;
   -webkit-transition: transform 0.4s, 0.4s box-shadow;
   -moz-transition: transform 0.4s, 0.4s box-shadow;
-  cursor: pointer;
+
 }
 
 @media only screen and (min-width: 551px) {
@@ -645,7 +645,6 @@ ul ol {
   font-size: 17px;
   font-weight: 700;
 }
-
 
 /*
 ----------------------------
