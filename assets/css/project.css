@@ -427,7 +427,14 @@ ul {
     flex-wrap: wrap;
     /* margin: 1rem auto; */
 }
-
+.technologies {
+    position: absolute;
+    bottom:10px;
+    font-size: 0;
+}
+.tagimg {
+    padding-left: 2px;
+}
 
 /* Responsive*/
 
@@ -437,7 +444,7 @@ ul {
         margin-right: 20px;
     }
     .card .title-div {
-        padding-bottom: 7rem;
+        
         margin-bottom: 0px;
         font-size: 3rem;
     }
@@ -449,7 +456,7 @@ ul {
         margin-right: 20px;
     }
     .card .title-div {
-        padding-bottom: 7rem;
+
         font-size: 3rem;
     }
 }
@@ -460,7 +467,7 @@ ul {
         margin-right: 20px;
     }
     .card .title-div {
-        padding-bottom: 8rem;
+
         margin-bottom: 0px;
         font-size: 2rem;
     }
@@ -472,7 +479,7 @@ ul {
         margin-right: 20px;
     }
     .card .title-div {
-        padding-bottom: 6rem;
+
         margin-bottom: 0px;
         font-size: 2rem;
     }
@@ -484,7 +491,7 @@ ul {
         margin-right: 20px;
     }
     .card .title-div {
-        padding-bottom: 6rem;
+
         margin-bottom: 0px;
         font-size: 2rem;
     }
@@ -496,7 +503,7 @@ ul {
         margin-right: 20px;
     }
     .card .title-div {
-        padding-bottom: 6rem;
+
         font-size: 2rem;
     }
 }
@@ -506,7 +513,7 @@ ul {
         margin-right: 20px;
     }
     .card .title-div {
-        padding-bottom: 6rem;
+
         margin-bottom: 0px;
         font-size: 2rem;
     }
@@ -518,7 +525,7 @@ ul {
         margin-right: 20px;
     }
     .card .title-div {
-        padding-bottom: 6rem;
+
         margin-bottom: 0px;
         font-size: 2rem;
     }
@@ -535,7 +542,7 @@ ul {
         margin-right: 20px;
     }
     .card .title-div {
-        padding-bottom: 7rem;
+
         font-size: 2rem;
     }
 }
