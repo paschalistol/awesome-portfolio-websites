@@ -3,18 +3,18 @@ AOS.init();
 
 const tagImages = [
   {name:"Android Studio", imgSrc:"assets/icons/android.png"},
-  {name:"Autodesk Maya", imgSrc:"assets/icons/maya.jpg"},
-  {name:"AR Core", imgSrc:"assets/icons/arcore.jpeg"},
-  {name:"Blender", imgSrc:"assets/icons/blender.jpg"},
+  {name:"Autodesk Maya", imgSrc:"assets/icons/maya.png"},
+  {name:"AR Core", imgSrc:"assets/icons/arcore.png"},
+  {name:"Blender", imgSrc:"assets/icons/blender.png"},
   {name:"C#", imgSrc:"assets/icons/c_sharp.png"},
   {name:"C++", imgSrc:"assets/icons/c++.png"},
-  {name:"CSS", imgSrc:"assets/icons/css.jpg"},
+  {name:"CSS", imgSrc:"assets/icons/css.png"},
   {name:"HTML", imgSrc:"assets/icons/html.png"},
   {name:"Java", imgSrc:"assets/icons/java.png"},
   {name:"JavaScript", imgSrc:"assets/icons/javascript.png"},
   {name:"Photoshop", imgSrc:"assets/icons/photoshop.png"},
-  {name:"Unity",imgSrc: "assets/icons/unity.jpg"},
-  {name: "Unreal Engine", imgSrc:"assets/icons/unreal.jpg"},
+  {name:"Unity",imgSrc: "assets/icons/unity.png"},
+  {name: "Unreal Engine", imgSrc:"assets/icons/unreal.png"},
 ]
 /* Project Cards */
 
@@ -24,7 +24,7 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Bowonia",
-    cardImage: "assets/icons/unity.jpg",
+    cardImage: "assets/icons/unity.png",
     description: "A quiz app built using basic react.",
     Previewlink: "bowonia.html",
     tags: ["11","4","10"],
@@ -134,7 +134,7 @@ const showCards = () => {
               <div class="technologies">
               ${tags.map(tag => (
                 `
-                  <img class="tagimg" width="40px" src=" ${tagImages[tag].imgSrc}" alt="${tag}" />
+                  <img class="tagimg" height="40px" src=" ${tagImages[tag].imgSrc}" alt="${tag}" />
                     
                 `                    
               )
