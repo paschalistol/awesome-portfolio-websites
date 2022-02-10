@@ -7,7 +7,7 @@ const showImage = () => {
   let output = "";
 output += `        
       
-        <img src="assets/images/experience-page/pt.jpg" class="project-image"/>
+        <img src="assets/images/experience-page/pt.jpg" class="project-img"/>
       
     
       `
