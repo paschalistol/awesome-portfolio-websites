@@ -47,7 +47,7 @@ html {
 
 /* -----Education Section CSS----- */
 
- @media (max-width: 767px) {
+ /*@media (max-width: 767px) {
   .dropdown1 {
     position: absolute;
     text-align: center;
@@ -66,6 +66,27 @@ html {
     position: absolute;
     z-index: 1;
     padding-top: 8rem;
+  }
+}*/
+
+@media only screen and (min-width: 767px) {
+
+  .dropdown{
+    order:0;
+  }
+  .godown{
+    order:-1;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .dropdown{
+    order:-1;
+  }
+  .godown{
+    order:0;
   }
 }
 
