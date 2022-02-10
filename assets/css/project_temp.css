@@ -33,7 +33,6 @@ html {
   }
   .godown {
     z-index: 1;
-    position: relative;
     padding-left: 3.3rem;
   }
 }
@@ -129,6 +128,7 @@ section > div {
 .row1 {
   margin: 4em auto 36px;
   align-items: center;
+  max-width: 1200px;
 }
 
 .card1 {
