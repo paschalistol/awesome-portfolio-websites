@@ -26,17 +26,7 @@ html {
 }
 /*Main section*/
 
-@media (max-width: 766px) {
-  .dropdown {
-    position: absolute;
-    padding-right: 3.5rem;
-  }
-  .godown {
-    z-index: 1;
-    padding-top: 8rem;
-    padding-left: 3.3rem;
-  }
-}
+
 .head-upper {
   background: var(--bg-txt-img);
   background-clip: text;
@@ -45,34 +35,12 @@ html {
 }
 
 section > div {
-  padding-top: 7rem !important;
+  margin: 4em auto 0;
+  max-width: 1200px;
+  padding-top: 3em;
 }
 
-@media only screen and (max-width: 991px) {
-  section {
-    height: 80vh;
-  }
-}
-@media only screen and (max-width: 867px) {
-  section {
-    height: 70vh;
-  }
-}
-@media only screen and (max-width: 767px) {
-  section {
-    height: 95vh;
-  }
-}
-@media only screen and (max-width: 550px) {
-  section {
-    height: 90vh;
-  }
-}
-@media only screen and (max-width: 400px) {
-  section {
-    height: 85vh;
-  }
-}
+
 
 .main,
 .main1 {
@@ -123,6 +91,27 @@ section > div {
     overflow: hidden;
     padding-left: 30px;
     padding-right: 30px;
+  }
+}
+
+@media only screen and (min-width: 767px) {
+
+  .dropdown{
+    order:0;
+  }
+  .godown{
+    order:-1;
+  }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+  .dropdown{
+    order:-1;
+  }
+  .godown{
+    order:0;
   }
 }
 
@@ -248,22 +237,11 @@ ul ol {
   line-height: 1.2;
   font-weight: bold;
   color: #222;
-  margin: 0.5em 0;
-  margin-top: 5rem;
+  margin-top: 2em;
   color: var(--text);
 }
 
-@media (min-width: 675px) {
-  .heading1 {
-    margin-top: 5em;
-  }
-}
 
-@media (min-width: 60rem) {
-  .exp-head {
-    margin-top: 0rem !important;
-  }
-}
 
 .card-body .pre-heading {
   color: var(--meta-col);

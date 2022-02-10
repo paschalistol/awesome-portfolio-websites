@@ -28,9 +28,7 @@ html {
 
 
 
-.dropdown{
-  order:-1;
-}
+
 
 .head-upper {
   background: var(--bg-txt-img);
@@ -39,20 +37,9 @@ html {
   -webkit-text-fill-color: var(--txt-fill);
 }
 
-section > div {
-  padding-top: 7rem !important;
-}
 
-@media only screen and (max-width: 991px) {
-  section {
-    height: 65vh;
-  }
-}
-@media only screen and (max-width: 867px) {
-  section {
-    height: 65vh;
-  }
-}
+
+
 @media only screen and (min-width: 767px) {
 
   .dropdown{
@@ -62,13 +49,10 @@ section > div {
     order:-1;
   }
 }
-.row1{
-  display: flex;
-}
+
+
 @media only screen and (max-width: 767px) {
-  section {
-    height: 70vh;
-  }
+
   .dropdown{
     order:-1;
   }
@@ -76,16 +60,7 @@ section > div {
     order:0;
   }
 }
-@media only screen and (max-width: 550px) {
-  section {
-    height: 75vh;
-  }
-}
-@media only screen and (max-width: 400px) {
-  section {
-    height: 75vh;
-  }
-}
+
 
 .main,
 .main1 {
@@ -140,9 +115,10 @@ section > div {
 }
 
 .row1 {
-  margin: 4em auto 36px;
-  align-items: center;
+  display: flex;
+  margin: 4em auto 0;
   max-width: 1200px;
+  padding-top: 3em;
 }
 
 .card1 {
@@ -266,27 +242,24 @@ ul ol {
     height: 300px;
   }
 }
-
+@media (max-width: 401px) {
+  .project-img {
+    max-height: 70%;
+    max-width: 70%;
+    width: auto;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .heading1 {
   font-size: 32px;
   line-height: 1.2;
   font-weight: bold;
   color: #222;
-  margin: 0.5em 0;
-  margin-top: 5em;
+  margin-top: 2em ;
   color: var(--text);
-}
-
-@media (min-width: 675px) {
-  .heading1 {
-    margin-top: 5em;
-  }
-}
-
-@media (min-width: 60rem) {
-  .exp-head {
-    margin-top: 0rem !important;
-  }
 }
 
 .card-body .pre-heading {
