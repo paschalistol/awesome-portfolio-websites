@@ -26,16 +26,12 @@ html {
 }
 /*Main section*/
 
-@media (max-width: 766px) {
-  .dropdown {
-    position: relative;
-    padding-right: 3.5rem;
-  }
-  .godown {
-    z-index: 1;
-    padding-left: 3.3rem;
-  }
+
+
+.dropdown{
+  order:-1;
 }
+
 .head-upper {
   background: var(--bg-txt-img);
   background-clip: text;
@@ -57,9 +53,27 @@ section > div {
     height: 65vh;
   }
 }
+@media only screen and (min-width: 767px) {
+
+  .dropdown{
+    order:0;
+  }
+  .godown{
+    order:-1;
+  }
+}
+.row1{
+  display: flex;
+}
 @media only screen and (max-width: 767px) {
   section {
     height: 70vh;
+  }
+  .dropdown{
+    order:-1;
+  }
+  .godown{
+    order:0;
   }
 }
 @media only screen and (max-width: 550px) {
@@ -188,11 +202,14 @@ ul ol {
   padding: 3%;
 }
 
-.project-image{
+.project-img{
   max-height: 300px;
   max-width: 300px;
   width: auto;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .card1 .featured-image {
@@ -256,7 +273,7 @@ ul ol {
   font-weight: bold;
   color: #222;
   margin: 0.5em 0;
-  margin-top: 5rem;
+  margin-top: 5em;
   color: var(--text);
 }
 
