@@ -136,9 +136,9 @@ html {
 }
 
 .card1:hover {
-  transform: scale(1.06);
-  -webkit-transform: scale(1.06);
-  -moz-transform: scale(1.06);
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
   transition: transform 0.4s, 0.4s box-shadow;
   border-radius: 13px;
   z-index: 0;

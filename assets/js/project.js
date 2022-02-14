@@ -73,8 +73,8 @@ const projects = [
   },
   {
     title: "3D Night Scene",
-    cardImage: "assets/images/project-page/movie-recommendation.jpeg",
-    description: "Built using Tensorflow.",
+    cardImage: "projects/3d-preview.png",
+    description: "A sample night scene created with modular assets created by me",
     Previewlink: "3d.html",
     tags: ["12","1"],
   },
