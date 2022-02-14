@@ -74,7 +74,7 @@ const projects = [
   {
     title: "3D Night Scene",
     cardImage: "projects/3d-preview.png",
-    description: "A sample night scene created with modular assets created by me",
+    description: "A sample night scene assembled with modular assets created by me",
     Previewlink: "3d.html",
     tags: ["12","1"],
   },
