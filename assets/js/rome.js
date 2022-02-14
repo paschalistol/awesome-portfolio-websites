@@ -28,9 +28,9 @@ const showInfo = () => {
   <h2 class="main-heading mb-0 experience_head"><span class="my_experience">All roads lead to Rome</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>A prototype quiz game</li>
-    <li>Platform PC</li>
-    <li>Role in the project was programmer </li>
+    <li>A prototype of a quiz game</li>
+    <li>Platform: PC</li>
+    <li>Role in the project: programmer </li>
     <li>Made with Unity and C#</li>
     <li>The player's goal is to answer to questions until they arrive to Rome</li>
   </ul>
