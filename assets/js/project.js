@@ -102,9 +102,9 @@ const projects = [
   },
   {
     title: "Rome Quiz Game",
-    cardImage: "assets/images/project-page/minesweeper.jpg",
+    cardImage: "projects/rome-preview.png",
     description:
-      "Minesweeper Game built using python ",
+      "A prototype of a quiz game made with Unity",
     Previewlink: "rome.html",
     tags: ["11","4"],
   },
