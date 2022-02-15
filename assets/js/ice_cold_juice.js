@@ -7,7 +7,7 @@ const showImage = () => {
   let output = "";
 output += `        
       
-        <img src="assets/images/experience-page/pt.jpg" class="project-img"/>
+        <img src="projects/icecold.png" class="project-img"/>
       
     
       `
@@ -25,7 +25,7 @@ const showInfo = () => {
               
                 
                         
-  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Bowonia</span></h2>
+  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Ice Cold Juice</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
     <li>Bowonia is a survival fast-paced RPG with cartoony style</li>

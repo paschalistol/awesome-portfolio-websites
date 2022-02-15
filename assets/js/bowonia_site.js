@@ -25,7 +25,7 @@ const showInfo = () => {
               
                 
                         
-  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Bowonia</span></h2>
+  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Bowonia Site</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
     <li>This is a promotional website about the game Bowonia that I was part of creating</li>

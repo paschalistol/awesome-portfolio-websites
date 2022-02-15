@@ -24,14 +24,14 @@ const projectcards = document.querySelector(".projectcards");
 const projects = [
   {
     title: "Bowonia",
-    cardImage: "assets/icons/unity.png",
+    cardImage: "projects/bowonia-preview.png",
     description: "A quiz app built using basic react.",
     Previewlink: "bowonia.html",
     tags: ["11","4","10"],
   },
   {
     title: "Ice Cold Juice",
-    cardImage: "assets/images/project-page/poker.jpg",
+    cardImage: "projects/icecold-preview.png",
     description: "Poker game built using typescript.",
     Previewlink: "ice_cold_juice.html",
     tags: ["11","4","3"],
