@@ -25,7 +25,7 @@ const showInfo = () => {
               
                 
                         
-  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Bowonia</span></h2>
+  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Traffic Jam</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
     <li>Bowonia is a survival fast-paced RPG with cartoony style</li>
