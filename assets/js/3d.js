@@ -46,7 +46,7 @@ const con = [
   {
     title: "Flame - Torch",
     cardImage: "assets/images/projects/3d-flame.gif",
-    desp: "<li>Torch with flame</li><li>3D creation of the torch</li><li>Flame throws shadow</li><li>Flame with particles</li>",
+    desp: "<li>Torch with flame</li><li>3D modeling of the torch</li><li>Flame throws shadow</li><li>Flame with particles</li>",
   },
   {
     title: "Fireflies",
@@ -56,7 +56,7 @@ const con = [
   {
     title: "3D Assets",
     cardImage: "assets/images/projects/3d-modules.gif",
-    desp: "<li>Creation of 3D assets in Maya</li><li>Simple objects than can be mixed to get different results</li>",
+    desp: "<li>Modeling of 3D assets in Maya</li><li>Simple objects than can be mixed to get different results</li>",
   },
   {
     title: "Create environment and reuse assets",
