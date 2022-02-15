@@ -7,7 +7,7 @@ const showImage = () => {
   let output = "";
 output += `        
       
-        <img src="assets/images/experience-page/pt.jpg" class="project-img"/>
+        <img src="projects/series.png" class="project-img"/>
       
     
       `
@@ -25,13 +25,13 @@ const showInfo = () => {
               
                 
                         
-  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Bowonia</span></h2>
+  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Series Finder</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Bowonia is a survival fast-paced RPG with cartoony style</li>
-    <li>Made with Unity and C#</li>
-    <li>Part of an exhibition at the Swedish National Museum of Science and Technology</li>
-    <li>Roles in the project were Lead Developer, Programmer and UX Designer</li>
+    <li>Filters and finds series from user's watchlist</li>
+    <li>Platform: PC</li>
+    <li>Made with Java</li>
+    <li>Using the <a href="https://www.imdb.com/interfaces/" target="_blank">IMDb datasets</a></li>
   </ul>
   </p>
   
@@ -45,19 +45,24 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Game Developer",
-    cardImage: "assets/images/experience-page/pt.jpg",
-    desp: "<li>Developing and releasing my solo developed games.</li><li>Released Ice Cold Juice on Play Store</li>",
+    title: "Filter by genre",
+    cardImage: "assets/images/projects/series-genres.png",
+    desp: "<li>Checkboxes that make it easier to find series of a specific genre</li><li>Selecting multiple boxes shows series meeting all the criteria</li>",
   },
   {
-    title: "Language Administrator - Greek",
-    cardImage: "assets/images/experience-page/academic_work.jpg",
-    desp: "<li>Consultant to a company to help them translate a software to Greek.</li>",
+    title: "Filter only completed series",
+    cardImage: "assets/images/projects/series-ended.png",
+    desp: "<li>A unique feature that (as far as I know) doesn't exist anywhere else</li><li>A checkbox that hides all series that are still being aired</li><li>Ability to type the last year that a series can have been completed</li>",
   },
   {
-    title: "IT specialist & Audiovisual support",
-    cardImage: "assets/images/experience-page/vdl.jpg",
-    desp:"<li>AV installation</li><li>IT support for conferences</li><li>Middle person between AV team and Conference organizer</li><li>Conference talk control and speaker support</li><li>YouTube live stream direction</li>",
+    title: "Total runtime",
+    cardImage: "assets/images/projects/series-runtime.png",
+    desp:"<li>The total runtime of a series</li><li>IMDb provides the total runtime of any mini-series but only the time of every episode for regular series. The program takes this into account and approximates the total runtime of regular series as well</li><li>User can easier select a series to watch for marathons</li>",
+  },
+  {
+    title: "Sorting",
+    cardImage: "assets/images/projects/series-sorting.png",
+    desp:"<li>Three different sorting methods</li><li>The series can be sorted by name, rating or total airtime</li><li>Ability to show series of a minimum rating and above</li>",
   },
 ];
 

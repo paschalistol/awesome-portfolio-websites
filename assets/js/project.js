@@ -66,8 +66,8 @@ const projects = [
   },
   {
     title: "Series Finder",
-    cardImage: "assets/images/project-page/battery.png",
-    description: "Built battery life calculator using Python.",
+    cardImage: "projects/series-preview.png",
+    description: "Find the optimal series to watch from your watchlist",
     Previewlink: "series_finder.html",
     tags: ["8"],
   },
