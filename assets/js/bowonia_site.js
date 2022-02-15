@@ -7,7 +7,7 @@ const showImage = () => {
   let output = "";
 output += `        
       
-        <img src="assets/images/experience-page/pt.jpg" class="project-img"/>
+        <img src="projects/bowonia-site.png" class="project-img"/>
       
     
       `
@@ -28,10 +28,9 @@ const showInfo = () => {
   <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Bowonia</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Bowonia is a survival fast-paced RPG with cartoony style</li>
-    <li>Made with Unity and C#</li>
-    <li>Part of an exhibition at the Swedish National Museum of Science and Technology</li>
-    <li>Roles in the project were Lead Developer, Programmer and UX Designer</li>
+    <li>This is a promotional website about the game Bowonia that I was part of creating</li>
+    <li>Made with HTML, CSS and Javascript</li>
+    <li><a href="https://github.com/paschalistol/bowonia-site" target="_blank">Source code</a></li>
   </ul>
   </p>
   
@@ -45,20 +44,21 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Game Developer",
-    cardImage: "assets/images/experience-page/pt.jpg",
-    desp: "<li>Developing and releasing my solo developed games.</li><li>Released Ice Cold Juice on Play Store</li>",
+    title: "Functional logo",
+    cardImage: "assets/images/projects/bowonia-site-toggle.gif",
+    desp: "<li>2 modes of showing the page banner</li><li>Easy to use button that makes it easier for the user to decide</li><li>Resize and fade in animation</li>",
   },
   {
-    title: "Language Administrator - Greek",
-    cardImage: "assets/images/experience-page/academic_work.jpg",
-    desp: "<li>Consultant to a company to help them translate a software to Greek.</li>",
+    title: "Responsive content",
+    cardImage: "assets/images/projects/bowonia-site-responsive.gif",
+    desp:"<li>Responsive content that fits all types of screens</li>",
   },
   {
-    title: "IT specialist & Audiovisual support",
-    cardImage: "assets/images/experience-page/vdl.jpg",
-    desp:"<li>AV installation</li><li>IT support for conferences</li><li>Middle person between AV team and Conference organizer</li><li>Conference talk control and speaker support</li><li>YouTube live stream direction</li>",
+    title: "Rich Backgrounds",
+    cardImage: "assets/images/projects/bowonia-site-alternating.png",
+    desp: "<li>Alternating backgrounds for every section in a page</li>",
   },
+
 ];
 
 const showCards = () => {

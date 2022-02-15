@@ -34,7 +34,7 @@ const projects = [
     cardImage: "assets/images/project-page/poker.jpg",
     description: "Poker game built using typescript.",
     Previewlink: "ice_cold_juice.html",
-    tags: ["11","4","10","3"],
+    tags: ["11","4","3"],
   },
   {
     title: "AR Game",
@@ -59,8 +59,8 @@ const projects = [
   },
   {
     title: "Bowonia Site",
-    cardImage: "assets/images/project-page/flappybird.png",
-    description: "Flappy bird game built using React.js",
+    cardImage: "projects/bowonia-site-preview.png",
+    description: "A promotional site about Bowonia",
     Previewlink: "bowonia_site.html",
     tags: ["7","6","9"],
   },
