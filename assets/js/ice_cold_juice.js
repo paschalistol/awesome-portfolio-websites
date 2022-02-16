@@ -89,7 +89,7 @@ const con = [
   {
     title: "Adaptive Screen",
     cardImage: "assets/images/projects/icecold-adaptive.gif",
-    desp: "<li>Game adapting to all aspect ratios</li><li>Option to come closer to screen panel</li>",
+    desp: "<li>Game adapting to all aspect ratios</li><li>Option to make screen panel bigger</li>",
   },
   {
     title: "3D Objects",
