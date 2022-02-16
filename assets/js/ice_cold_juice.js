@@ -28,10 +28,11 @@ const showInfo = () => {
   <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Ice Cold Juice</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Bowonia is a survival fast-paced RPG with cartoony style</li>
+    <li>An arcade game based on the popular <i>Ice Cold Beer</i></li>
+    <li>Platform: Android</li>
     <li>Made with Unity and C#</li>
-    <li>Part of an exhibition at the Swedish National Museum of Science and Technology</li>
-    <li>Roles in the project were Lead Developer, Programmer and UX Designer</li>
+    <li>Solo developed</li>
+    <li>Released on <a href="https://play.google.com/store/apps/details?id=com.PhobTroll.coldbeer" target="_blank">Play Store</a></li>
   </ul>
   </p>
   

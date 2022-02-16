@@ -136,9 +136,9 @@ html {
 }
 
 .card1:hover {
-  transform: scale(1.2);
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
   transition: transform 0.4s, 0.4s box-shadow;
   border-radius: 13px;
   z-index: 0;
@@ -227,6 +227,20 @@ ul ol {
 @media only screen and (max-width: 992px) {
   .card1 .featured-image {
     width: 400px;
+  }
+}
+
+@media(max-width: 959px) {
+  .card1:hover {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    transition: transform 0.4s, 0.4s box-shadow;
+    border-radius: 13px;
+    z-index: 0;
+    -webkit-transition: transform 0.4s, 0.4s box-shadow;
+    -moz-transition: transform 0.4s, 0.4s box-shadow;
+  
   }
 }
 
