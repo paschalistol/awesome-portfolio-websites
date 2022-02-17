@@ -7,7 +7,7 @@ const showImage = () => {
   let output = "";
 output += `        
       
-        <img src="assets/images/experience-page/pt.jpg" class="project-img"/>
+        <img src="projects/traffic.png" class="project-img"/>
       
     
       `
@@ -28,10 +28,10 @@ const showInfo = () => {
   <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Traffic Jam</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Bowonia is a survival fast-paced RPG with cartoony style</li>
-    <li>Made with Unity and C#</li>
-    <li>Part of an exhibition at the Swedish National Museum of Science and Technology</li>
-    <li>Roles in the project were Lead Developer, Programmer and UX Designer</li>
+    <li>A game engine that is displayed through a game</li>
+    <li>Made with C++</li>
+    <li>Using <a href="https://www.libsdl.org/" target="_blank">Simple Directmedia Layer</a></li> 
+    <li><a href="https://github.com/paschalistol/CPROG_TrafficJam" target="_blank">Source Code</a></li> 
   </ul>
   </p>
   
@@ -45,19 +45,19 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Game Developer",
-    cardImage: "assets/images/experience-page/pt.jpg",
-    desp: "<li>Developing and releasing my solo developed games.</li><li>Released Ice Cold Juice on Play Store</li>",
+    title: "Gameplay",
+    cardImage: "assets/images/projects/traffic-gameplay.png",
+    desp: "<li>Player changes lanes and attacks cars by throwing stones</li><li>The cars get deleted when they are hit by stones</li>",
   },
   {
-    title: "Language Administrator - Greek",
-    cardImage: "assets/images/experience-page/academic_work.jpg",
-    desp: "<li>Consultant to a company to help them translate a software to Greek.</li>",
+    title: "Object Manager",
+    cardImage: "assets/images/projects/traffic-manager.gif",
+    desp: "<li>Objects (i.e. cars and stones) are deleted when out of the screen</li>",
   },
   {
-    title: "IT specialist & Audiovisual support",
-    cardImage: "assets/images/experience-page/vdl.jpg",
-    desp:"<li>AV installation</li><li>IT support for conferences</li><li>Middle person between AV team and Conference organizer</li><li>Conference talk control and speaker support</li><li>YouTube live stream direction</li>",
+    title: "Player Input",
+    cardImage: "assets/images/projects/traffic-player.gif",
+    desp: "<li>Player moves to different lanes</li><li>Player throws stones to the cars</li>",
   },
 ];
 

@@ -45,7 +45,7 @@ const projects = [
   },
   {
     title: "Simple game engine",
-    cardImage: "assets/images/project-page/movie-recommendation.jpeg",
+    cardImage: "projects/traffic-preview.jpg",
     description: "A game engine created during a C++ course",
     Previewlink: "traffic_jam.html",
     tags: ["5"],
