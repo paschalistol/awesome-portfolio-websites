@@ -7,7 +7,7 @@ const showImage = () => {
   let output = "";
 output += `        
       
-        <img src="assets/images/experience-page/pt.jpg" class="project-img"/>
+        <img src="projects/covid.png" class="project-img"/>
       
     
       `
@@ -25,13 +25,15 @@ const showInfo = () => {
               
                 
                         
-  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Bowonia</span></h2>
+  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Covid Info</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Bowonia is a survival fast-paced RPG with cartoony style</li>
-    <li>Made with Unity and C#</li>
-    <li>Part of an exhibition at the Swedish National Museum of Science and Technology</li>
-    <li>Roles in the project were Lead Developer, Programmer and UX Designer</li>
+    <li>An app that gives useful information about COVID-19</li>
+    <li>Platform: Android</li>
+    <li>Made with Android Studio and Java</li>
+    <li>Solo developed</li>
+    <li>Numbers about cases/deaths from <a href="https://about-corona.net/" target="_blank">about-corona.net</a></li>
+    <li>Numbers about vaccinated from <a href="https://mmediagroup.fr/covid-19" target="_blank">mmediagroup.fr</a></li>
   </ul>
   </p>
   
@@ -45,19 +47,24 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Game Developer",
-    cardImage: "assets/images/experience-page/pt.jpg",
-    desp: "<li>Developing and releasing my solo developed games.</li><li>Released Ice Cold Juice on Play Store</li>",
+    title: "COVID-19 Info",
+    cardImage: "assets/images/projects/covid-info.png",
+    desp: "<li>Gives information about <b>total cases</b> of COVID-19</li><li>Gives information about <b>deaths</b> by COVID-19</li><li>Gives information about how many <b>recovered</b> from COVID-19</li><li>Gives information about how many are partially or totally <b>vaccinated</b> for COVID-19</li>",
   },
   {
-    title: "Language Administrator - Greek",
-    cardImage: "assets/images/experience-page/academic_work.jpg",
-    desp: "<li>Consultant to a company to help them translate a software to Greek.</li>",
+    title: "Hamburger Menu",
+    cardImage: "assets/images/projects/covid-menu.png",
+    desp: "<li>Easy to use menu</li><li>User selects mode</li><li>Button to navigate to notification settings</li><li>Information when data was updated</li>",
   },
   {
-    title: "IT specialist & Audiovisual support",
-    cardImage: "assets/images/experience-page/vdl.jpg",
-    desp:"<li>AV installation</li><li>IT support for conferences</li><li>Middle person between AV team and Conference organizer</li><li>Conference talk control and speaker support</li><li>YouTube live stream direction</li>",
+    title: "Daily Notification",
+    cardImage: "assets/images/projects/covid-notification.png",
+    desp:"<li>User gets a daily notification with information</li><li>User decides country from a list and time of notificaiton</li>",
+  },
+  {
+    title: "Google Maps",
+    cardImage: "assets/images/projects/covid-map.gif",
+    desp: "<li>Google Maps integration</li><li>Pins only if respective API provides info about country</li><li>Custom map style</li>",
   },
 ];
 

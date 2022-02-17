@@ -52,10 +52,10 @@ const projects = [
   },
   {
     title: "Covid Info",
-    cardImage: "assets/images/project-page/recipe.jpg",
+    cardImage: "projects/covid-preview.png",
     description: "An app parsing covid related info",
     Previewlink: "covid_info.html",
-    tags: ["8","0"],
+    tags: ["0","8"],
   },
   {
     title: "Bowonia Site",
@@ -94,7 +94,7 @@ const projects = [
   },
   {
     title: "Pizza Runner",
-    cardImage: "assets/images/project-page/book.png",
+    cardImage: "projects/pizza-preview.png",
     description: "An android runner of a pizza baker collecting ingredients",
     Previewlink: "pizza_runner.html",
     tags: ["11","4"],
