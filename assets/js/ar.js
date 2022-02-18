@@ -25,13 +25,13 @@ const showInfo = () => {
               
                 
                         
-  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Bowonia</span></h2>
+  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Nod The Node</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Bowonia is a survival fast-paced RPG with cartoony style</li>
-    <li>Made with Unity and C#</li>
-    <li>Part of an exhibition at the Swedish National Museum of Science and Technology</li>
-    <li>Roles in the project were Lead Developer, Programmer and UX Designer</li>
+    <li>Made for a Game Jam where key word was "NOD"</li>
+    <li>Made with Unity, C# and AR Core</li>
+    <li>Solo developed</li>
+    <li>Nod also meaning node in swedish</li>
   </ul>
   </p>
   

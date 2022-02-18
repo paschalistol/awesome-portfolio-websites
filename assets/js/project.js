@@ -15,6 +15,7 @@ const tagImages = [
   {name:"Photoshop", imgSrc:"assets/icons/photoshop.png"},
   {name:"Unity",imgSrc: "assets/icons/unity.png"},
   {name: "Unreal Engine", imgSrc:"assets/icons/unreal.png"},
+  {name: "Tobii", imgSrc:"assets/icons/tobii.png"},
 ]
 /* Project Cards */
 
@@ -23,49 +24,56 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Bowonia",
+    title: "Big PC Game",
     cardImage: "projects/bowonia-preview.png",
     description: "A survival fast-paced RPG with cartoony style",
     Previewlink: "bowonia.html",
     tags: ["11","4","10"],
   },
   {
-    title: "Ice Cold Juice",
+    title: "Released Play Store Game",
     cardImage: "projects/icecold-preview.png",
     description: "An arcade game based on the popular Ice Cold Beer",
     Previewlink: "ice_cold_juice.html",
     tags: ["11","4","3"],
   },
   {
+    title: "Bachelor Thesis",
+    cardImage: "projects/thesis-preview.jpg",
+    description: "Local multiplayer cheating avoidance using Eye tracking",
+    Previewlink: "thesis.html",
+    tags: ["11","4","13"],
+  },
+  {
     title: "AR Game",
-    cardImage: "assets/images/project-page/exercise.jpg",
+    cardImage: "projects/ar-preview.png",
     description: "An AR game created during a game jam",
     Previewlink: "ar.html",
     tags: ["11","4","2"],
   },
   {
-    title: "Simple game engine",
+    title: "Simple Game Engine",
     cardImage: "projects/traffic-preview.jpg",
     description: "A game engine created during a C++ course",
     Previewlink: "traffic_jam.html",
     tags: ["5"],
   },
   {
-    title: "Covid Info",
+    title: "Android App",
     cardImage: "projects/covid-preview.png",
     description: "An app parsing covid related info",
     Previewlink: "covid_info.html",
     tags: ["0","8"],
   },
   {
-    title: "Bowonia Site",
+    title: "Promotional Site",
     cardImage: "projects/bowonia-site-preview.png",
     description: "A promotional site about Bowonia",
     Previewlink: "bowonia_site.html",
     tags: ["7","6","9"],
   },
   {
-    title: "Series Finder",
+    title: "PC App",
     cardImage: "projects/series-preview.png",
     description: "Find the optimal series to watch from your watchlist",
     Previewlink: "series_finder.html",
@@ -79,32 +87,38 @@ const projects = [
     tags: ["12","1"],
   },
   {
-    title: "Pixel Runner",
-    cardImage: "assets/images/project-page/tic-tac-toe.png",
+    title: "Arcade Game",
+    cardImage: "projects/pixel-preview.png",
     description: "An endless arcade game with randomly generated level",
     Previewlink: "pixel_runner.html",
     tags: ["11","4"],
   },
   {
-    title: "Bob the Burgler",
-    cardImage: "assets/images/project-page/chess.jpg",
+    title: "Smaller PC Game",
+    cardImage: "projects/bob-preview.png",
     description: "A cartoony game about a burgler",
     Previewlink: "bob.html",
     tags: ["11","4"],
   },
   {
-    title: "Pizza Runner",
+    title: "Runner Game",
     cardImage: "projects/pizza-preview.png",
     description: "An android runner of a pizza baker collecting ingredients",
     Previewlink: "pizza_runner.html",
     tags: ["11","4"],
   },
   {
-    title: "Rome Quiz Game",
+    title: "Quiz PC Game",
     cardImage: "projects/rome-preview.png",
-    description:
-      "A prototype of a quiz game made with Unity",
+    description: "A prototype of a quiz game made with Unity",
     Previewlink: "rome.html",
+    tags: ["11","4"],
+  },
+  {
+    title: "PC Platformer",
+    cardImage: "projects/knight-preview.png",
+    description: "A 2D platformer made for PC",
+    Previewlink: "knight.html",
     tags: ["11","4"],
   },
 ];
