@@ -28,10 +28,10 @@ const showInfo = () => {
   <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Bachelor Thesis</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Filters and finds series from user's watchlist</li>
+    <li>A game created for the testing of our thesis hypothesis</li>
     <li>Platform: PC</li>
-    <li>Made with Java</li>
-    <li>Using the <a href="https://www.imdb.com/interfaces/" target="_blank">IMDb datasets</a></li>
+    <li>Made with Unity, C# and Tobii Eye tracker</li>
+    <li>Thesis yet to be presented</li>
   </ul>
   </p>
   
