@@ -45,19 +45,19 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Game Developer",
-    cardImage: "assets/images/experience-page/pt.jpg",
-    desp: "<li>Developing and releasing my solo developed games.</li><li>Released Ice Cold Juice on Play Store</li>",
+    title: "Gameplay",
+    cardImage: "assets/images/projects/pizza-gameplay.gif",
+    desp: "<li>End level to get a star</li><li>Finish without dying to get an extra star</li><li>Collect all special ingredients to get an extra star</li>",
   },
   {
-    title: "Language Administrator - Greek",
-    cardImage: "assets/images/experience-page/academic_work.jpg",
-    desp: "<li>Consultant to a company to help them translate a software to Greek.</li>",
+    title: "Controls",
+    cardImage: "assets/images/projects/pizza-swipe.gif",
+    desp: "<li>Custom code to swipe up/down in order to jump/slide</li><li>Player moves right/left based on user input</li>",
   },
   {
-    title: "IT specialist & Audiovisual support",
-    cardImage: "assets/images/experience-page/vdl.jpg",
-    desp:"<li>AV installation</li><li>IT support for conferences</li><li>Middle person between AV team and Conference organizer</li><li>Conference talk control and speaker support</li><li>YouTube live stream direction</li>",
+    title: "Animations",
+    cardImage: "assets/images/projects/pizza-animations.gif",
+    desp:"<li>Star animations at the end of the level</li><li>Main menu animations</li>",
   },
 ];
 

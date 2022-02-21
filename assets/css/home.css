@@ -190,7 +190,7 @@ section .about-title::after{
   }
 }
 
-@media (max-width: 947px){
+@media (max-width: 967px){
  
   .max-width{
       max-width: 930px;
@@ -214,6 +214,9 @@ section .about-title::after{
   .about .about-content .right .text,
   .left .text{
       font-size: 19px;
+  }
+  .about .about-content{
+     padding: 0 30px;
   }
 
 }

@@ -54,7 +54,7 @@ const con = [
   {
     title: "Pool Manager",
     cardImage: "assets/images/projects/icecold-pool.gif",
-    desp: "<li>Custom made pool manager</li><li>Easy to import to different projects</li><li>Optimizes for smoother gameplay</li><li>User decides the number of clones that already exist on Awake</li><li>More clones are created if needed</li>",
+    desp: "<li>Custom made pool manager</li><li>Reusable code (based on code from <b>Bowonia</b>)</li><li>Optimizes for smoother gameplay</li><li>User decides the number of clones that already exist on Awake</li><li>More clones are created if needed</li>",
   },
   {
     title: "Google Play Services",
@@ -97,7 +97,7 @@ const con = [
     desp: "<li>Made in Blender</li><li>Different objects for easier usage</li><li>Minimum number of object parts for easier material management</li>",
   },
   {
-    title: "Custom Shader",
+    title: "Custom Shaders",
     cardImage: "assets/images/projects/icecold-shader.gif",
     desp: "<li>Custom shaders to make 2D and 3D objects only visible in certain areas</li><li>One shader for the objects</li><li>One shader for the masked region that allows visibility</li>",
   },

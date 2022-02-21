@@ -25,13 +25,13 @@ const showInfo = () => {
               
                 
                         
-  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Nod The Node</span></h2>
+  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Nod to the Node</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Made for a Game Jam where key word was "NOD"</li>
+    <li>Made for a Game Jam where theme word was <b>"NOD"</b></li>
     <li>Made with Unity, C# and AR Core</li>
     <li>Solo developed</li>
-    <li>Nod also meaning node in swedish</li>
+    <li><b>Nod</b> also meaning <b>node</b> in Swedish</li>
   </ul>
   </p>
   
@@ -45,19 +45,19 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Game Developer",
-    cardImage: "assets/images/experience-page/pt.jpg",
-    desp: "<li>Developing and releasing my solo developed games.</li><li>Released Ice Cold Juice on Play Store</li>",
+    title: "AR Core",
+    cardImage: "",
+    desp: "<li>Face recognition using AR Core</li><li>Detects face parts such as the nose to use for head movement recognition</li>",
   },
   {
-    title: "Language Administrator - Greek",
-    cardImage: "assets/images/experience-page/academic_work.jpg",
-    desp: "<li>Consultant to a company to help them translate a software to Greek.</li>",
+    title: "Head Movement Recognition",
+    cardImage: "",
+    desp: "<li>Custom code to recognize head movement and nodding</li>",
   },
   {
-    title: "IT specialist & Audiovisual support",
-    cardImage: "assets/images/experience-page/vdl.jpg",
-    desp:"<li>AV installation</li><li>IT support for conferences</li><li>Middle person between AV team and Conference organizer</li><li>Conference talk control and speaker support</li><li>YouTube live stream direction</li>",
+    title: "Gameplay",
+    cardImage: "",
+    desp:"<li>Connect nodes by nodding</li><li>Recreate the shape to the right represented with black and yellow lines</li><li>Connects the blue node to the node on the underside in the middle</li>",
   },
 ];
 

@@ -31,7 +31,7 @@ const projects = [
     tags: ["11","4","10"],
   },
   {
-    title: "Released Play Store Game",
+    title: "Released Android Game",
     cardImage: "projects/icecold-preview.png",
     description: "An arcade game based on the popular Ice Cold Beer",
     Previewlink: "ice_cold_juice.html",

@@ -7,7 +7,7 @@ const showImage = () => {
   let output = "";
 output += `        
       
-        <img src="assets/images/experience-page/pt.jpg" class="project-img"/>
+        <img src="projects/pixel-level.png" class="project-img"/>
       
     
       `
@@ -25,13 +25,16 @@ const showInfo = () => {
               
                 
                         
-  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Bowonia</span></h2>
+  <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Pixel Runner</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Bowonia is a survival fast-paced RPG with cartoony style</li>
+  <li>An endless 2D arcade with randomly generated level</li>
+    <li>Platform: Android</li>
     <li>Made with Unity and C#</li>
-    <li>Part of an exhibition at the Swedish National Museum of Science and Technology</li>
-    <li>Roles in the project were Lead Developer, Programmer and UX Designer</li>
+    <li>Also used Blender</li>
+    <li>Based on a Game Jam project</li>
+    <li>Solo maintained with new/updated code</li>
+    <li>Project is under developemnt and more features will be added</li>
   </ul>
   </p>
   
@@ -45,19 +48,34 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Game Developer",
-    cardImage: "assets/images/experience-page/pt.jpg",
-    desp: "<li>Developing and releasing my solo developed games.</li><li>Released Ice Cold Juice on Play Store</li>",
+    title: "Gameplay",
+    cardImage: "assets/images/projects/pixel-gameplay.gif",
+    desp: "<li>Player can be in 3 different modes</li><li>One mode is <b>small and slow</b></li><li>One mode is <b>long and fast</b></li><li>One mode is <b>wide and fast</b></li><li>Be fast to avoid the enemies hunting you</li><li>Different kinds of obstacles needing being in different mode</li>",
   },
   {
-    title: "Language Administrator - Greek",
-    cardImage: "assets/images/experience-page/academic_work.jpg",
-    desp: "<li>Consultant to a company to help them translate a software to Greek.</li>",
+    title: "Randomly Generated Level",
+    cardImage: "assets/images/projects/pixel-level.png",
+    desp: "<li>Level randomly is built in X-axis</li><li>Random kind of obstacle is spawn</li><li>Random color for every piece built</li>",
   },
   {
-    title: "IT specialist & Audiovisual support",
-    cardImage: "assets/images/experience-page/vdl.jpg",
-    desp:"<li>AV installation</li><li>IT support for conferences</li><li>Middle person between AV team and Conference organizer</li><li>Conference talk control and speaker support</li><li>YouTube live stream direction</li>",
+    title: "Pool Manager",
+    cardImage: "assets/images/projects/pixel-pool.gif",
+    desp:"<li>Custom made pool manager</li><li>Reusable code (based on code from <b>Bowonia</b> and <b>Ice Cold Juice</b>)</li><li>Optimizes for smoother gameplay</li><li>User decides the number of clones that already exist on Awake</li><li>Custom made pool manager</li><li>More clones are created if needed</li>",
+  },
+  {
+    title: "Enemies",
+    cardImage: "assets/images/projects/pixel-enemies.gif",
+    desp:"<li>The enemies follow the player's exact path</li><li>If enemies touch the player the game ends</li><li>Enemies start with random rotation speed and direction</li>",
+  },
+  {
+    title: "Trail",
+    cardImage: "assets/images/projects/pixel-trail.gif",
+    desp:"<li>Different trail length depending on player speed</li><li>Special trail colors for power-up speed</li><li>More trails for wide mode</li>",
+  },
+  {
+    title: "Handheld Arcade Feel",
+    cardImage: "assets/images/projects/pixel-arcade.png",
+    desp:"<li>3D model of a handheld console with sticks</li><li>Screen canvas showing the gameplay taking place in 3D space behind the console</li>",
   },
 ];
 
