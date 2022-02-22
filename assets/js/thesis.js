@@ -29,7 +29,7 @@ const showInfo = () => {
   <p class="pre-heading font-weight-bolder  ">
   <ul>
     <li>"Gaze tracking as hidden input in local multiplayer games"</li>
-    <li>A game created for the testing of our thesis hypothesis</li>
+    <li>Minigame created for testing our thesis hypothesis</li>
     <li>Platform: PC</li>
     <li>Made with Unity, C# and Tobii Eye tracker</li>
     <li>Thesis yet to be presented</li>
@@ -46,11 +46,30 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "",
+    title: "Gameplay",
     cardImage: "",
-    desp: "<li></li>",
+    desp: "<li>Local multiplayer game</li><li>One player is the attacker and the other is the goalkeeper</li><li>Practice where players' targets are visible</li><li>After both players attacked by aiming with the controller, they will aim with the eye tracker</li>",
   },
-
+  {
+    title: "Tobii Support",
+    cardImage: "",
+    desp: "<li>Support for a Tobii eye tracker</li>",
+  },
+  {
+    title: "Multiple Controllers",
+    cardImage: "",
+    desp: `<li>Support for several controllers at the same time</li><li>Software used: <a href="https://ryochan7.github.io/ds4windows-site/" target="_blank">DS4Windows</a></li>`,
+  },
+  {
+    title: "Unity's New Input System",
+    cardImage: "",
+    desp: "<li>Support for different kinds of controllers</li><li>Easy change of mapping to attacking/defensive controls</li>",
+  },
+  {
+    title: "Players",
+    cardImage: "",
+    desp: "<li><b>Ball</b> and <b>Goalkeeper</b> change color depending on player</li><li>Targets snap to a grid</li>",
+  },
 ];
 
 const showCards = () => {

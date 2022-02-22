@@ -7,7 +7,7 @@ const showImage = () => {
   let output = "";
 output += `        
       
-        <img src="projects/series.png" class="project-img"/>
+        <img src="projects/knight.png" class="project-img"/>
       
     
       `
@@ -28,7 +28,7 @@ const showInfo = () => {
   <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Knight's Quest</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Filters and finds series from user's watchlist</li>
+    <li>A 2D platformer with 2 levels</li>
     <li>Platform: PC</li>
     <li>Made with Unity and C#</li>
     <li>My first Unity project</li>    
@@ -46,24 +46,24 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Filter by genre",
-    cardImage: "assets/images/projects/series-genres.png",
-    desp: "<li>Checkboxes that make it easier to find series of a specific genre</li><li>Selecting multiple boxes shows series meeting all the criteria</li>",
+    title: "Gameplay",
+    cardImage: "assets/images/projects/knight-gameplay.gif",
+    desp: "<li>Save the princess</li><li>Collect the keys to open the gate</li><li>Kill the evil spiders</li><li>Avoid the obstacles</li>",
   },
   {
-    title: "Filter only completed series",
-    cardImage: "assets/images/projects/series-ended.png",
-    desp: "<li>A unique feature that (as far as I know) doesn't exist anywhere else</li><li>A checkbox that hides all series that are still being aired</li><li>Ability to type the last year that a series can have been completed</li>",
+    title: "Enemies",
+    cardImage: "assets/images/projects/knight-spider.gif",
+    desp:"<li>Detect player proximity and attack</li><li>Have own health</li><li>Make damage to player</li><li>Limits to move inside of</li><li>Be aggresive if player is near</li><li>Pushback when attacked by player</li>",
   },
   {
-    title: "Total runtime",
-    cardImage: "assets/images/projects/series-runtime.png",
-    desp:"<li>The total runtime of a series</li><li>IMDb provides the total runtime of any mini-series but only the time of every episode for regular series. The program takes this into account and approximates the total runtime of regular series as well</li><li>User can easier select a series to watch for marathons</li>",
+    title: "Controls",
+    cardImage: "assets/images/projects/knight-controls.gif",
+    desp: "<li>Move character</li><li>Double jump</li><li>Attack with sword</li>",
   },
   {
-    title: "Sorting",
-    cardImage: "assets/images/projects/series-sorting.png",
-    desp:"<li>Three different sorting methods</li><li>The series can be sorted by name, rating or total airtime</li><li>Ability to show series of a minimum rating and above</li>",
+    title: "Animations",
+    cardImage: "assets/images/projects/knight-animations.gif",
+    desp:"<li>Fade in/out scene</li><li>The series can be sorted by name, rating or total airtime</li><li>Ability to show series of a minimum rating and above</li>",
   },
 ];
 

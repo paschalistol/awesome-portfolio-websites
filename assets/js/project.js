@@ -16,6 +16,8 @@ const tagImages = [
   {name:"Unity",imgSrc: "assets/icons/unity.png"},
   {name: "Unreal Engine", imgSrc:"assets/icons/unreal.png"},
   {name: "Tobii", imgSrc:"assets/icons/tobii.png"},
+  {name: "Flutter", imgSrc:"assets/icons/flutter.png"},
+  {name: "Dart", imgSrc:"assets/icons/dart.png"},
 ]
 /* Project Cards */
 
