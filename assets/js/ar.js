@@ -7,7 +7,7 @@ const showImage = () => {
   let output = "";
 output += `        
       
-        <img src="assets/images/experience-page/pt.jpg" class="project-img"/>
+        <img src="" class="project-img"/>
       
     
       `
@@ -45,6 +45,11 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
+    title: "Gameplay",
+    cardImage: "",
+    desp:"<li>Connect nodes by nodding</li><li>Recreate the shape to the right represented with black and yellow lines</li><li>Connect the blue node to the node on the underside in the middle</li>",
+  },
+  {
     title: "AR Core",
     cardImage: "",
     desp: "<li>Face recognition using AR Core</li><li>Detects face parts such as the nose to use for head movement recognition</li>",
@@ -52,13 +57,9 @@ const con = [
   {
     title: "Head Movement Recognition",
     cardImage: "",
-    desp: "<li>Custom code to recognize head movement and nodding</li>",
+    desp: "<li>Custom code to recognize head movement and user nodding</li>",
   },
-  {
-    title: "Gameplay",
-    cardImage: "",
-    desp:"<li>Connect nodes by nodding</li><li>Recreate the shape to the right represented with black and yellow lines</li><li>Connects the blue node to the node on the underside in the middle</li>",
-  },
+
 ];
 
 const showCards = () => {
