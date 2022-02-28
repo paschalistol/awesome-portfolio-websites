@@ -53,7 +53,7 @@ const con = [
   {
     title: "Tobii Support",
     cardImage: "",
-    desp: "<li>Support for a Tobii eye tracker</li>",
+    desp: "<li>Support for Tobii eye tracker</li>",
   },
   {
     title: "Multiple Controllers",
