@@ -55,6 +55,11 @@ const con = [
     desp: "<li>Custom code to swipe up/down in order to jump/slide</li><li>Player moves right/left based on user input</li>",
   },
   {
+    title: "Main Programming",
+    cardImage: "assets/images/projects/pizza-special.png",
+    desp:"<li>Special ingredients gathering implemented</li><li>Death check for extra star implemented</li><li>Unlocked levels check</li><li>Remaining lives check</li>",
+  },
+  {
     title: "Animations",
     cardImage: "assets/images/projects/pizza-animations.gif",
     desp:"<li>Star animations at the end of the level</li><li>Main menu animations</li>",
