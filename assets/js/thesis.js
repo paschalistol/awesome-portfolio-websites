@@ -7,7 +7,7 @@ const showImage = () => {
   let output = "";
 output += `        
       
-        <img src="projects/bachelor.png" class="project-img"/>
+        <img src="projects/thesis.png" class="project-img"/>
       
     
       `
@@ -47,27 +47,27 @@ const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
     title: "Gameplay",
-    cardImage: "",
+    cardImage: "assets/images/projects/thesis-gameplay.gif",
     desp: "<li>Local multiplayer game</li><li>One player is the attacker and the other is the goalkeeper</li><li>Practice where players' targets are visible</li><li>After both players attacked by aiming with the controller, they will aim with the eye tracker</li>",
   },
   {
     title: "Tobii Support",
-    cardImage: "",
+    cardImage: "assets/images/projects/thesis-tobii.gif",
     desp: "<li>Support for Tobii eye tracker</li>",
   },
   {
     title: "Multiple Controllers",
-    cardImage: "",
+    cardImage: "assets/images/projects/thesis-controllers.gif",
     desp: `<li>Support for several controllers at the same time</li><li>Software used: <a href="https://ryochan7.github.io/ds4windows-site/" target="_blank">DS4Windows</a></li>`,
   },
   {
     title: "Unity's New Input System",
-    cardImage: "",
+    cardImage: "assets/images/projects/thesis-input.png",
     desp: "<li>Support for different kinds of controllers</li><li>Easy change of mapping to attacking/defensive controls</li>",
   },
   {
     title: "Players",
-    cardImage: "",
+    cardImage: "assets/images/projects/thesis-grid.gif",
     desp: "<li><b>Ball</b> and <b>Goalkeeper</b> change color depending on player</li><li>Targets snap to a grid</li>",
   },
 ];
