@@ -29,6 +29,7 @@ const showInfo = () => {
   <p class="pre-heading font-weight-bolder  ">
   <ul>
     <li>Made for a Game Jam where theme word was <b>"NOD"</b></li>
+    <li>Platform: Android</li>
     <li>Made with Unity, C# and AR Core</li>
     <li>Solo developed</li>
     <li><b>Nod</b> also meaning <b>node</b> in Swedish</li>

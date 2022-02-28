@@ -29,6 +29,7 @@ const showInfo = () => {
   <p class="pre-heading font-weight-bolder  ">
   <ul>
     <li>A game engine that is displayed through a game</li>
+    <li>Platform: PC</li>
     <li>Made with C++</li>
     <li>Using <a href="https://www.libsdl.org/" target="_blank">Simple Directmedia Layer</a></li> 
     <li><a href="https://github.com/paschalistol/CPROG_TrafficJam" target="_blank">Source Code</a></li> 

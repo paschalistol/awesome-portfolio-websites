@@ -29,6 +29,7 @@ const showInfo = () => {
   <p class="pre-heading font-weight-bolder  ">
   <ul>
     <li>Bowonia is a survival fast-paced RPG with cartoony style</li>
+    <li>Platform: PC</li>
     <li>Made with Unity and C#</li>
     <li>Part of an exhibition at the Swedish National Museum of Science and Technology</li>
     <li>Roles in the project were Lead Developer, Programmer and UX Designer</li>
@@ -63,7 +64,7 @@ const con = [
   {
     title: "Scoreboard",
     cardImage: "assets/images/projects/bowonia-scoretable.gif",
-    desp: "<li>Saves score with player defined name</li><li>Autoscrolls scores to user's position</li><li>Always shows the player in first place</li><li>If same score shows the same posistion</li><li>Shows relevant information such as player class, progress and points</li><li>Developer defined number of score entries</li>",
+    desp: "<li>Saves score with player defined name</li><li>Autoscrolls scores to user's position</li><li>Always shows the player in first place</li><li>If same score shows the same posistion</li><li>Shows relevant information such as player class, progress and points</li><li>Developer defined number of score entries</li><li>Scores saved in external file</li>",
   },
   {
     title: "Other UX",
@@ -78,7 +79,7 @@ const con = [
   {
     title: "Other Programming",
     cardImage: "assets/images/projects/bowonia-programming.gif",
-    desp: "<li>Smoother math based enemy jump</li><li>Autorefill health if selected</li><li>Navigate menu also with keyboard and continue navigation from mouse point</li><li>Fix enemy animations not playing. Adjust player animation walking in all directions</li><li>Randomize enemy color</li><li>Change player weapon after some upgrades</li><li><b><u>Bug Fixing</u></b> throughout the game</li>",
+    desp: "<li>Smoother math based enemy jump</li><li>Autorefill health if option selected</li><li>Navigate menu also with keyboard and continue navigation from mouse point</li><li>Fix enemy animations not playing. Adjust player animation walking in all directions</li><li>Randomize enemy skin color</li><li>Change player weapon after some upgrades</li><li><b><u>Bug Fixing</u></b> throughout the game</li>",
   },
   {
     title: "Trailer",

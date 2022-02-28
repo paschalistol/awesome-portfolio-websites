@@ -29,6 +29,7 @@ const showInfo = () => {
   <p class="pre-heading font-weight-bolder  ">
   <ul>
     <li>A cartoony game about a sneaky burgler</li>
+    <li>Platform: PC</li>
     <li>Made with Unity and C#</li>
     <li>The entire game was made with custom coded physics</li>
     <li>Role in the project: Programmer</li>
@@ -46,18 +47,23 @@ const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
     title: "Gameplay",
-    cardImage: "",
+    cardImage: "assets/images/projects/bob-gameplay.gif",
     desp: "<li></li>",
   },
   {
     title: "Custom Physics",
-    cardImage: "",
-    desp: "<li></li>",
+    cardImage: "assets/images/projects/bob-physics.gif",
+    desp: "<li>Newly coded physics</li><li>Independent of Unity physics and Rigidbodies</li><li>Hold items</li><li>Jump and move</li><li>Interact with objects</li><li>Throw objects</li>",
   },
   {
-    title: "",
-    cardImage: "",
-    desp:"<li></li>",
+    title: "State Machine & Event System",
+    cardImage: "assets/images/projects/bob-states.gif",
+    desp: "<li>Newly coded physics</li><li>Independent of Unity physics and Rigidbodies</li><li>Event system manager for easier event registration/unregistration</li>",
+  },
+  {
+    title: "Other Programming",
+    cardImage: "assets/images/projects/bob-patrol.gif",
+    desp: "<li><b><u>Bug Fixing</u></b> throughout the game</li><li>Patrol points for default enemy route</li><li>Typewriter effect</li><li>Sound implementation</li><li>Checkpoints</li><li>Respawn items if irregular use or player death</li><li>Scrapped sliding state where player was sliding on belly in custom physics</li>",
   },
 ];
 

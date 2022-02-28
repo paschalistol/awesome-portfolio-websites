@@ -28,10 +28,10 @@ const showInfo = () => {
   <h2 class="main-heading mb-0 experience_head"><span class="my_experience">Pizza Runner</span></h2>
   <p class="pre-heading font-weight-bolder  ">
   <ul>
-    <li>Bowonia is a survival fast-paced RPG with cartoony style</li>
+    <li>A cartoony runner prototype about a pizza baker</li>
+    <li>Platform: Android</li>
     <li>Made with Unity and C#</li>
-    <li>Part of an exhibition at the Swedish National Museum of Science and Technology</li>
-    <li>Roles in the project were Lead Developer, Programmer and UX Designer</li>
+    <li>Role in the project: Programmer</li>
   </ul>
   </p>
   
