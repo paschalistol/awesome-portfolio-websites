@@ -9,7 +9,6 @@ output += `
       
         <img src="projects/thesis.png" class="project-img"/>
       
-    
       `
   projectimage.innerHTML = output;
 };

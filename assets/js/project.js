@@ -54,6 +54,13 @@ const projects = [
     tags: ["11","4","2"],
   },
   {
+    title: "Released Arcade Game",
+    cardImage: "projects/stack-mania-preview.jpg",
+    description: "A clone of the arcade game Stack",
+    Previewlink: "stack_mania.html",
+    tags: ["11","4"],
+  },
+  {
     title: "Simple Game Engine",
     cardImage: "projects/traffic-preview.jpg",
     description: "A game engine created during a C++ course",
