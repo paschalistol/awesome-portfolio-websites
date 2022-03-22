@@ -34,6 +34,7 @@ const showInfo = () => {
     <li>Also used Blender, Photoshop and Audacity</li>
     <li>Solo developed</li>
     <li>Released on <a href="https://play.google.com/store/apps/details?id=com.PhobTroll.coldbeer" target="_blank">Play Store</a></li>
+    <li><a href="https://github.com/paschalistol/IceCold" target="_blank">Source Code</a></li>
   </ul>
   </p>
   

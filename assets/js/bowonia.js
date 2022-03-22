@@ -34,6 +34,7 @@ const showInfo = () => {
     <li>Part of an exhibition at the Swedish National Museum of Science and Technology</li>
     <li>Roles in the project were Lead Developer, Programmer and UX Designer</li>
     <li>Download available at <a href="https://paschalistol.itch.io/bowonia" target="_blank">itch.io</a></li>
+    <li><a href="https://github.com/ScaryGosling/Project_P" target="_blank">Source Code</a></li>
   </ul>
   </p>
   
