@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Gameplay",
+    title: "Game Description",
     cardImage: "assets/images/projects/ar-gameplay.gif",
     desp:"<li>Connect nodes by nodding</li><li>Recreate the shape to the right represented with black and yellow lines</li><li>Connect the blue node to the node on the underside in the middle</li>",
   },

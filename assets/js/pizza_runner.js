@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Gameplay",
+    title: "Game Description",
     cardImage: "assets/images/projects/pizza-gameplay.gif",
     desp: "<li>End level to get a star</li><li>Finish without dying to get an extra star</li><li>Collect all special ingredients to get an extra star</li>",
   },

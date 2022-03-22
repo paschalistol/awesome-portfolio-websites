@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Gameplay",
+    title: "Game Description",
     cardImage: "assets/images/projects/stack-mania-gameplay.gif",
     desp: "<li>Stack blocks as high as possible</li><li>Random color for every block</li><li>Excess parts of blocks are cut off</li><li>Particles when perfectly stacked</li>",
   },

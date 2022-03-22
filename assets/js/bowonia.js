@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Gameplay",
+    title: "Game Description",
     cardImage: "assets/images/projects/bowonia-gameplay.jpg",
     desp: "<li>Choose between 2 classes, <b>Fighter</b> or <b>Mystic</b></li><li>Endless number of waves with increasing difficulty</li><li>Buy or upgrade skills and potions</li><li>Random events and quests</li><li>Fully remappable controls</li>",
   },

@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Gameplay",
+    title: "Game Description",
     cardImage: "assets/images/projects/knight-gameplay.gif",
     desp: "<li>Save the princess</li><li>Collect the keys to open the gate</li><li>Kill the evil spiders</li><li>Avoid the obstacles</li>",
   },

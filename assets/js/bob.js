@@ -46,9 +46,9 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Gameplay",
+    title: "Game Description",
     cardImage: "assets/images/projects/bob-gameplay.gif",
-    desp: "<li></li>",
+    desp: "<li>Physics based game</li><li>Walk and run, jump, throw and sneak into the building</li><li>Follow the mission and steal the valuables</li><li>Avoid the guards and the dogs, disable the security cameras</li>",
   },
   {
     title: "Custom Physics",
@@ -58,7 +58,7 @@ const con = [
   {
     title: "State Machine & Event System",
     cardImage: "assets/images/projects/bob-states.gif",
-    desp: "<li>Newly coded physics</li><li>Independent of Unity physics and Rigidbodies</li><li>Event system manager for easier event registration/unregistration</li>",
+    desp: "<li>Individual states for the player and the enemies</li><li>Easy to switch state and have different behaviours</li><li>Event system manager for easier event registration/unregistration</li>",
   },
   {
     title: "Other Programming",

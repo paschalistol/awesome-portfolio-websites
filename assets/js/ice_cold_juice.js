@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Gameplay",
+    title: "Game Description",
     cardImage: "assets/images/projects/icecold-gameplay.gif",
     desp: "<li>2 modes, classic and survival</li><li>Classic arcade sticks</li><li>Realistic animations and game start/end</li><li>Gravity based ball movement</li>",
   },

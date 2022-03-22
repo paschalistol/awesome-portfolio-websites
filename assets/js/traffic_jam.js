@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Gameplay",
+    title: "Game Description",
     cardImage: "assets/images/projects/traffic-gameplay.png",
     desp: "<li>Player changes lanes and attacks cars by throwing stones</li><li>The cars get deleted when they are hit by stones</li>",
   },

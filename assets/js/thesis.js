@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Gameplay",
+    title: "Game Description",
     cardImage: "assets/images/projects/thesis-gameplay.gif",
     desp: "<li>Local multiplayer game</li><li>One player is the attacker and the other is the goalkeeper</li><li>Practice where players' targets are visible</li><li>After both players attacked by aiming with the controller, they will aim with the eye tracker</li>",
   },

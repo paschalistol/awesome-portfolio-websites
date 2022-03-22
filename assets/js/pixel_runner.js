@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", showInfo);
 const contributioncards = document.querySelector(".contribution-cards");
 const con = [
   {
-    title: "Gameplay",
+    title: "Game Description",
     cardImage: "assets/images/projects/pixel-gameplay.gif",
     desp: "<li>Player can be in 3 different modes</li><li>One mode is <b>small and slow</b></li><li>One mode is <b>long and fast</b></li><li>One mode is <b>wide and fast</b></li><li>Be fast to avoid the enemies hunting you</li><li>Different kinds of obstacles needing being in different mode</li>",
   },
