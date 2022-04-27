@@ -10,7 +10,7 @@ const exp = [
     cardImage: "assets/images/experience-page/pt.jpg",
     place: "Self-employed",
     time: "(Sep, 2021 - present)",
-    desp: "<li>Developing and releasing my solo developed games</li><li>Released Ice Cold Juice on Play Store</li>",
+    desp: "<li>Developing and releasing my solo developed games</li><li>Released Ice Cold Juice on Play Store</li><li>Released Stack Mania on Play Store</li>",
   },
   {
     title: "Language Administrator - Greek",
