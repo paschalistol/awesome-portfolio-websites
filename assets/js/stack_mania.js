@@ -32,6 +32,7 @@ const showInfo = () => {
     <li>Platform: Android</li>
     <li>Made with Unity and C#</li>
     <li>Solo developed</li>
+    <li>Fast track developed in 2 days</li>
     <li>Released on <a href="https://play.google.com/store/apps/details?id=com.PhobTroll.StackMania" target="_blank">Play Store</a></li>
     <li><a href="https://github.com/paschalistol/Stack-Mania" target="_blank">Source Code</a></li>
   </ul>
