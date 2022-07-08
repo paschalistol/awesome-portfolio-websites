@@ -63,7 +63,7 @@ const con = [
   {
     title: "Animations",
     cardImage: "assets/images/projects/knight-animations.gif",
-    desp:"<li>Fade in/out scene</li><li>The series can be sorted by name, rating or total airtime</li><li>Ability to show series of a minimum rating and above</li>",
+    desp:"<li>Fade in/out scene</li>",
   },
 ];
 
