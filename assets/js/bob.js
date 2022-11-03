@@ -53,7 +53,7 @@ const con = [
   {
     title: "Custom Physics",
     cardImage: "assets/images/projects/bob-physics.gif",
-    desp: "<li>Newly coded physics</li><li>Independent of Unity physics and Rigidbodies</li><li>Hold items</li><li>Jump and move</li><li>Interact with objects</li><li>Throw objects</li>",
+    desp: "<li>Newly coded physics</li><li>Independent of Unity physics and Rigidbodies</li><li>Collision Detection</li><li>Hold items</li><li>Jump and move</li><li>Interact with objects</li><li>Throw objects</li>",
   },
   {
     title: "State Machine & Event System",
