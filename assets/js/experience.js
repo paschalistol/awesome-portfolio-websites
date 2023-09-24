@@ -6,6 +6,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Software Engineer",
+    cardImage: "assets/images/experience-page/ticket.png",
+    place: "Ticket Privatresor",
+    time: "(Dec, 2022 - present)",
+    desp: "<li>Backend development</li><li>New microservice, features, fixes</li><li>Regular releases, service monitoring</li><li>Test-driven development</li><li>.NET Core, Redis, Kubernetes, Jenkins X</li><li>Kibana, Grafana, Prometheus</li><li>JetBrains Rider, LinqPad, SQL Server Management Studio</li><li>Postman, Protoman, Swagger</li>",
+  },
+  {
     title: "Game Developer",
     cardImage: "assets/images/experience-page/pt.jpg",
     place: "Self-employed",
